@@ -11,8 +11,8 @@ st.write("5 Minutes Engineering(Text)")
 st.markdown("5 Minutes Engineering(Markdown)")
 st.caption("5 Minutes Engineering(Caption)")
 
-st.image(r"C:\Users\vp212\project\Session 8\vk.png")
-st.video(r"C:\Users\vp212\project\Session 8\demo.mp4")
+st.image("vk.png")
+st.video("demo.mp4")
 
 st.checkbox('checkbox')
 st.button('Click button')
@@ -50,7 +50,7 @@ st.info("Information")
 st.exception(RuntimeError("RuntimeError exception"))
 
 st.sidebar.title("5 Minutes Engineering")
-st.sidebar.image(r"C:\Users\vp212\project\Session 8\vk.png")
+st.sidebar.image("vk.png")
 
 df = pd.DataFrame(np.random.randn(50, 20), columns=("col %d" % i for i in range(20)))
 st.dataframe(df)
